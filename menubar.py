@@ -10,7 +10,7 @@ for i in range(len(api_datas)):
     ip_addresses.append(api_datas[i][1])
 
 
-zpe_icon="/Users/yalindogusahin/Desktop/custom_tkinter/nodegrid_cluster/zpe-removebg-preview.png"
+zpe_icon="./Icons/zpe-removebg-preview.png"
 
 def button_function(app, menuitem, icon=zpe_icon):
     print(f"https://{menuitem.title}")

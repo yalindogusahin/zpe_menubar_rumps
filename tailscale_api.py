@@ -6,6 +6,7 @@ from datetime import *
 
 def api_call():
     x = 0
+    # Provide your tailnet ID and api_key
     tailnet="yalindogusahin.github"
     api_key="tskey-api-kDAtcr6CNTRL-AHCbaiVopp7WXNTGzixSr7XAkCXRST3P"
         
@@ -38,11 +39,9 @@ def api_call():
             
             
         x = x+1
-        
+    
     # Last seen converted to date time format
     for i in last_seen:
         y.append(datetime.strptime(i,"%Y-%m-%dT%H:%M:%SZ"))
     
     return device
-
-api_call()
