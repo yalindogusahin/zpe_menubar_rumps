@@ -1,5 +1,0 @@
-PyQtWebEngine
-PyQt5
-requests.auth
-requests
-json
